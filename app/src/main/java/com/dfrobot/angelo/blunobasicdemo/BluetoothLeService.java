@@ -52,7 +52,6 @@ public class BluetoothLeService extends Service {
     private static final int STATE_CONNECTING = 1;
     private static final int STATE_CONNECTED = 2;
     public int mConnectionState = STATE_DISCONNECTED;
-
     
     //To tell the onCharacteristicWrite call back function that this is a new characteristic, 
     //not the Write Characteristic to the device successfully.
